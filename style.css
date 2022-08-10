@@ -1,0 +1,649 @@
+body {
+    background: #F6F6F6;
+    /* background: #FFFFFF;
+    background-image: url(img/background.png);
+    background-size: cover; */
+}
+ 
+/* untuk mengatur posisi logo */
+.navbar img {
+    margin-left: 123px;
+}
+/* mengatur posisi tulisan logo */
+.navbar-brand {
+    margin-left: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #6A6A6A
+}
+/* mengatur navbar beserta jarak per nav */
+.nav-link {
+    width: 100px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+}
+/* mengatur jarak dari navbar brand dan navlink */
+#navbarNavDropdown {
+    margin-left: 27px;
+}
+/* mtombol submit */
+.nav-button .btn {
+    width: 100px;
+    height: 42px;
+    margin-left: 500px;
+
+    background: #FFFFFF;
+    border: 1px solid #6A6A6A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BFC4C7;
+
+}
+/* mengatur sosial media email dan facebook */
+.social_media .gmail img{
+    margin-top: 20px;
+
+    margin-left: 0px; 
+    border-radius: 50px;
+}
+
+.social_media .facebook img {
+    margin-top: 18px;
+    margin-left: 0px; 
+    border-radius: 50px;
+}
+
+/* animasi text */
+.social_media a:hover,
+.social_media.active,
+.social_media .active:focus,
+.social_media li:hover>a {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+/* membuat heading utama */
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 112px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #010101;
+}
+
+.header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #6A6A6A;
+}
+/* membuat bagian favorite */
+
+.latest{
+    
+    margin-left: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+    text-decoration: none;
+}
+
+.Popular{
+    margin-left: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #6A6A6A;
+    text-decoration: none;
+}
+
+.premium{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #D37243;
+    text-decoration: none;
+    margin-left: -50px;
+}
+
+.Free{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #638CC4;
+    text-decoration: none;
+    margin-left: -100px;
+    
+}
+
+.filter{
+    margin-left: 687px;
+}
+
+.favorite{
+    margin-left: 575px;
+}
+
+/* yang dijual */
+
+.merchandise1 {
+    width: 345px;
+    height: 378px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 257px;
+}
+.merchandise2 {
+    width: 345px;
+    height: 378px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 257px;
+}
+.merchandise3 {
+    width: 345px;
+    height: 378px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 257px;
+}
+
+.merchandise11 {
+    /* Frame 21 */
+
+
+    position: absolute;
+    width: 345px;
+    height: 378px;
+
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.merchandise22 {
+    /* Frame 22 */
+
+
+    position: absolute;
+    width: 345px;
+    height: 378px;
+
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.merchandise33 {
+    position: absolute;
+    width: 345px;
+    height: 378px;
+
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.merchandise .show_merchandise {
+    top: 16px;
+    margin-left: 12px;
+    background: #43EE94;
+    border-radius: 20px;
+    width: 323px;
+    height: 207px;
+    
+}
+
+.price {
+    margin-top: -50px;
+    margin-left: 120px;
+    width: 100px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
+}
+
+.price_1 {
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+    text-decoration: none;
+}
+
+.pin1ab{
+    margin-left: 170px;
+    margin-top: -235px;
+}
+
+.product span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 25px;
+    /* or 33% */
+
+    text-align: center;
+
+    color: #6A6A6A;
+
+}
+
+.product{
+    margin-top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 33% */
+
+    text-align: center;
+
+    color: #6A6A6A;
+}
+
+.download{
+    margin-top: 35px;
+    margin-left: 125px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #6A6A6A;
+}
+
+.download_icn {
+    margin-left:235px;
+    margin-top: -55px;
+}
+
+/* animasi text untuk merchandise*/
+.merchandise a:hover,
+.merchandise.active,
+.merchandise .active:focus,
+.merchandise li:hover>a {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+
+}
+.merchandise a i,
+.merchandise a:focus i {
+    font-size: 240px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+/* Dicover */
+.discover {
+    margin-top: 123px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    text-decoration-line: underline;
+
+    color: #6A6A6A;
+}
+
+/* mengatur konten discover */
+.img_1 {
+    margin-top: 125px;
+    margin-left: -200px;
+
+
+}
+
+.img_2  {
+    margin-top: 125px;
+    margin-left: -190px;
+
+
+}
+.img_3 {
+    margin-top: 125px;
+    margin-left: -180px;
+
+
+}
+.img_4 {
+    margin-top: 125px;
+    margin-left: -170px;
+
+
+}
+/* animasi text untuk discover */
+.collection a:hover,
+.collection.active,
+.collection .active:focus,
+.collection li:hover>a {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.collection a i,
+.collection a:focus i {
+    font-size: 240px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+
+/* next_button */
+.next_button .btn {
+
+    margin-top: 100px;
+    margin-left: 677px;
+    width: 224px;
+    height: 69px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #6A6A6A;
+
+}
+
+@media all and (max-width : 1000px) {
+    .nav-link{
+        padding-left: 375px;
+    }
+
+    .nav-button {
+        margin-left: -115px;
+    }
+
+    .social_media .gmail {
+        margin-left: 350px;
+    }
+    .social_media .facebook{
+        margin-left: 125px;
+    }
+    
+    .latest {
+        margin-left: 0px;
+    }
+
+    .Popular{
+        margin-left: 10px;
+    }
+
+    .premium {
+        margin-left: 10px;
+    }
+
+    .Free{
+        margin-left: 20px;
+    }
+
+    .heading{
+        margin-left: 0px;
+        width: 800px;
+        line-height: 75px;
+    }
+
+    .header{
+        margin-left: 75px;
+        width: 500px;
+        margin-top: 25px;
+        font-size: medium;
+    }
+
+    .filter {
+        margin-left: 350px;
+    }
+
+    .favorite{
+        margin-left: 325px;
+    }
+
+    .merchandise1 {
+        margin-left: 150px;
+    }
+
+    .merchandise2{
+        margin-left: 350px;
+    }
+
+    .merchandise3 {
+        margin-left: -100px;
+        margin-top: 400px;
+        
+    }
+
+    .discover{
+        width: 350px;
+        font-size: 15px ;
+        margin-left: 20px;
+    }
+
+    .img_1 {
+        margin-left: -50px;
+    }
+    .img_2{
+        margin-left: -35px;
+    }
+    .img_3{
+        margin-left: -20px;
+    }
+
+    .img_4 {
+        margin-left: -5px;
+    }
+
+    .next_button {
+        margin-left: -500px;
+    }
+
+}
+
+@media all and (max-width : 600px) {
+    .container-fluid .logo {
+        left: 0px;
+        top : 25px;
+        margin-left: 0px;
+    }
+
+    .navbar-brand {
+        font-size: medium;
+        margin-left: -100px;
+    }
+    .nav-link{
+        margin-left: 0px;
+        padding-left: 85px;
+    }
+    .nav-button {
+        margin-left: -425px;
+    }
+
+    .social_media .gmail {
+        margin-left: 50px;
+    }
+    .social_media .facebook{
+        margin-left: -40px;
+    }
+    .heading {
+        font-size: 50px;
+        margin-left: -75px;
+        width: 500px;
+        margin-top: 50px;
+        line-height: 50px;
+    }
+
+    .header {
+        font-size: 15px;
+        width: 350px;
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    .latest {
+        margin-left: 75px;
+        
+    }
+
+    .Popular {
+        margin-left: 100px;
+    }
+
+    .premium {
+        margin-left: 135px;
+
+    }
+
+    .Free {
+        margin-left: 185px;
+    }
+
+    .filter {
+        margin-left: 200px;
+        
+    }
+
+    .favorite{
+        margin-left: 200px;
+    
+    }
+
+    .merchandise1 {
+        margin-left: 50px;
+    }
+
+    .merchandise2{
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    .merchandise3 {
+        margin-left: -75px;
+        margin-top: 430px;
+        
+    }
+
+    .discover {
+        width: 350px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 15px;
+            
+    }
+    
+    .img_1 {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+        .img_2 {
+            margin-left: 35px;
+            margin-top: 15px;
+        }
+    
+        .img_3 {
+            margin-left: 115px;
+            margin-top: -50px;
+        }
+    
+        .img_4 {
+            margin-left: 150px;
+            margin-top: -50px;
+        }
+    
+        .next_button {
+            margin-left: -800px;
+        }
+    
+
+    
+
+ 
+
+}
+
